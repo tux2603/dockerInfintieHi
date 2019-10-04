@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  hiserver:
+    build: ./
+    command: /usr/bin/server
+    ports:
+      - 8080:8080
